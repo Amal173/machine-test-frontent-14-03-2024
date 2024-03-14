@@ -1,0 +1,51 @@
+.question form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.question h2 {
+  margin-bottom: 20px;
+}
+.question label {
+  margin: 10px 0;
+}
+.question input[type=radio] {
+  margin-right: 10px;
+}
+.question .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.question button {
+  padding: 15px 26px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.question button:hover {
+  background-color: #0056b3;
+}
+.question button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+.question form {
+  width: 100%;
+}
+.question .options {
+  display: grid;
+}
+
+.submit-button {
+  margin-top: 30px;
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 15px;
+  border: none;
+  background-color: #0056b3;
+}

@@ -1,0 +1,44 @@
+.registration body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5;
+}
+.registration form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.registration h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.registration label {
+  display: block;
+  margin-bottom: 5px;
+}
+.registration input[type=text],
+.registration input[type=email] {
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.registration button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.registration button:hover {
+  background-color: #0056b3;
+}
+.registration .errorMsg {
+  color: red;
+}
